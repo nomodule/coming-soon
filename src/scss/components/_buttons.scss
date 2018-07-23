@@ -1,0 +1,38 @@
+.btn {
+
+	& {
+		position: relative;
+		display: inline-block;
+		font-family: inherit;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: .5px;
+		padding: 1rem 2rem;
+		color: $secondary;
+		background: #fff;
+		border: none;
+		border-radius: 4px;
+		outline: none;
+		box-shadow: 10px 5px 25px rgba($secondary, .1111);
+		cursor: pointer;
+		transition: all .25s ease;
+
+		&:hover, &:focus {
+			box-shadow: 5px 5px 10px rgba($secondary, .2);
+		}
+
+		&:active {
+			transform: translateY(3px);
+			box-shadow: 2px 2px 8px rgba($secondary, .3);
+		}
+	}
+
+	&-primary {
+		color: #fff;
+		background: $green;
+
+		&:hover, &:focus {
+
+		}
+	}
+}
