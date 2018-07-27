@@ -1,5 +1,3 @@
 'use strict';
 
-console.clear();
-
-console.log('Ajay');
+console.log('i am wroking in theme');

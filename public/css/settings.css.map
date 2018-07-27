@@ -1,1 +1,1 @@
-{"version":3,"sources":["settings.css"],"names":[],"mappings":"AAAA;EACE,+BAAuB;UAAvB,uBAAuB,EAAE","file":"settings.css","sourcesContent":["* {\n  box-sizing: border-box; }\n"]}
+{"version":3,"sources":["settings.css"],"names":[],"mappings":"AAAA;EACE,+BAAuB;UAAvB,uBAAuB,EAAE;;AAE3B;EACE,sBAAsB,EAAE;;AAE1B;EACE,uBAAuB,EAAE","file":"settings.css","sourcesContent":["* {\n  box-sizing: border-box; }\n\na {\n  text-decoration: none; }\n\nimg {\n  vertical-align: middle; }\n"]}

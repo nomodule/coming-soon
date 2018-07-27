@@ -39,6 +39,22 @@
 	}
 }
 
+.bottombar {
+	display: flex;
+	padding: 0 1.1rem;
+	margin-top: 5rem;
+	margin-bottom: 3rem;
+
+	&-logo, &-copy {
+		display: flex;
+		align-items: center;
+	}
+
+	&-copy {
+		justify-content: flex-end;
+	}
+}
+
 .deco-line {
 	height: 3px;
 	width: 50%;
